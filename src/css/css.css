@@ -1,0 +1,206 @@
+/* iframe#persona{
+    width: 400px;
+    height: 300px;
+    display: block;
+    position: relative;
+    border: 3px white solid;
+    box-shadow: 1px 1px 1px black;
+}
+
+figure iframe#persona:hover{
+    width: 700px;
+    height: 600px;
+    transition: 0.5s;
+    opacity: 0.4;
+    
+}
+figure{
+	position: relative;
+}
+
+figure figcaption#blabla{
+	opacity: 1;
+	position: absolute;
+	top: 0px;
+	background-color: 	rgba(0, 0, 0, 0.4);
+	color: white;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: opacity 1s;
+	
+
+}
+
+iframe#persona:hover figcaption#blabla:hover{
+    width: 700px;
+    height: 600px;
+} */
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background: radial-gradient(#150230, #022230);
+	color: white;
+	overflow-x: hidden;
+	font-family: 'Poppins', sans-serif;
+}
+
+figure {
+	position: relative;
+    width: 400px;
+    height: 300px;
+}
+
+figure img#personaaa{
+	width: 400px;
+	height: 300px;
+	display: block;
+	left: 100px;
+}
+
+figure img#aval{
+	width: 400px;
+	height: 300px;
+	display: block;
+}
+
+figure img#xmen{
+	width: 400px;
+	height: 300px;
+	display: block;
+}
+
+figure figcaption{
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	background-color: 	rgba(0, 0, 0, 0.4);
+	color: white;
+	width: 400px;
+	height: 300px;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: opacity 1s;
+	
+
+}
+
+figure:hover figcaption{
+	opacity: 1;
+    transition: 0.3s;
+
+}
+
+figure:hover iframe{
+    transition: 0.3s;
+}
+
+ul#projetosbala{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+
+div#projetos h1{
+	text-align: center;
+
+}
+ul#menul{
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	position: absolute;
+	left: 1220px;
+	top: -10px;
+
+}
+
+ul#menul li{
+	padding: 10px;
+	margin: 2px;
+	cursor: pointer;
+}
+
+ul#menul li:hover{
+	display: inline-block;
+	padding: 10px;
+	margin: 2px;
+	background-color: #033c54;
+	border-radius: 25px;
+
+}
+
+div#apresentacao{
+	text-align: justify;
+	top: 200px;
+	display: block;
+	position: relative;
+	left: 70px;
+	font-size: 15pt;
+
+	
+}
+
+div#apresentacao img{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 390px;
+	top: 140px
+
+}
+
+div#sobreMim{
+	position: relative;
+	display: block;
+	top: 400px;
+	left: 70px;
+	width: 700px;
+}
+
+div#Habilidades{
+	position: relative;
+	display: flex;
+	top: 500px;
+	gap: 500px;
+	justify-content: center;
+
+
+}
+
+div#Habilidades img{
+	height: 100px;
+	width: 100px;
+
+}
+
+div#Habilidades p{
+	cursor:default;
+	text-align: center;
+}
+
+div#css:hover{
+	cursor:default;
+	color:#205c40
+}
+
+div#html:hover{
+	cursor:default;
+	color:#205c40
+}
+
+div#java:hover{
+	cursor:default;
+	color:#205c40
+}
+
+div#projetos{
+	top: 600px;
+	position: relative;
+}
+
+
+
